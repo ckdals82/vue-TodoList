@@ -5,7 +5,7 @@
       <i class="addBtn fas fa-plus" aria-hidden="true"></i>
     </span>
 
-    <!-- <Modal v-if="showModal" @close="showModal = false">
+    <Modal v-if="showModal" @close="showModal = false">
       <h3 slot="header">
         경고
         <i
@@ -16,7 +16,7 @@
         </i>
       </h3>
       <p slot="body">할 일을 입력하세요.</p>
-    </Modal> -->
+    </Modal>
   </div>
 </template>
 
